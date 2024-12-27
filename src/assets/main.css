@@ -5,3 +5,21 @@
 body {
   background-color: rgb(238, 201, 229);
 }
+
+.count::before {
+  position: absolute;
+  display: flex;
+  content: '1';
+  min-width: 20px;
+  min-height: 20px;
+  justify-content: center;
+  align-items: center;
+  z-index: 3;
+  bottom: 14px;
+  left: 12px;
+  border-radius: 100vh;
+  background: rgb(238, 201, 229);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+}
