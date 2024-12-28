@@ -1,5 +1,4 @@
 <script setup>
-import likeVue from './like.vue'
 defineProps({
   totalPrice: Number,
 })
