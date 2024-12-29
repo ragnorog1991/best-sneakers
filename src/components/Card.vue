@@ -24,7 +24,7 @@ const props = defineProps({
       @click="onClickFavorite"
     />
 
-    <img :src="imageUrl" alt="Sneaker" />
+    <img class="w-full h-auto" :src="imageUrl" alt="Sneaker" />
 
     <p class="mt-2">{{ title }}</p>
 
