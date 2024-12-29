@@ -7,7 +7,7 @@ const emit = defineEmits(['openDrawer'])
 </script>
 
 <template>
-  <header class="flex justify-between border-b border-slate-200 px-10 py-8">
+  <header class="flex justify-between border-b border-slate-200 px-10 py-8 flex-wrap">
     <router-link to="/">
       <div class="flex items-center gap-4">
         <img src="/logo2.png" alt="logo" class="w-10" />
@@ -18,7 +18,7 @@ const emit = defineEmits(['openDrawer'])
       </div>
     </router-link>
 
-    <ul class="flex items-center gap-10">
+    <ul class="flex items-center gap-10 flex-wrap md:my-5 sm:my-5 my-5">
       <li
         @click="() => emit('openDrawer')"
         class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black"
@@ -31,7 +31,7 @@ const emit = defineEmits(['openDrawer'])
         <li
           class="flex items-center cursor-pointer gap-3 text-gray-500 hover:text-black relative count"
         >
-          <img class="like" src="/heart.svg" alt="Cart" />
+          <img src="/heart.svg" alt="Cart" />
           <span>Избранное</span>
         </li>
       </router-link>
