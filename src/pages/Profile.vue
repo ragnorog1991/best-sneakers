@@ -6,7 +6,7 @@
   <h1 class="text-3xl font-bold mb-8">Войти или создать профиль</h1>
   <div class="justify-items-center">
     <div
-      class="flex-auto justify-items-center bg-white shadow-xl border border-slate-100 rounded-lg"
+      class="flex-auto justify-items-center bg-white shadow-xl border border-slate-100 w-full rounded-lg"
     >
       <div class="flex relative justify-center m-40">
         <p class="absolute bottom-10 left-0 text-slate-400">Контактный телефон</p>
