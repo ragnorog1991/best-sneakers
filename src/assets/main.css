@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  background-color: rgb(238, 201, 229);
+@media (min-width: 640px) {
+  body {
+    background-color: rgb(238, 201, 229);
+  }
 }
 
 .count::before {
